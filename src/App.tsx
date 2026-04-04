@@ -1,7 +1,9 @@
+import Index from "./pages/Index";
+
 function App() {
   return (
     <div>
-      <h1>My React App 🚀</h1>
+      <Index/>
     </div>
   );
 }
