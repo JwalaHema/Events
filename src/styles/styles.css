@@ -2362,7 +2362,7 @@ header .btn {
 }
 
 .style-second {
-  background: url(../images/hero_banner.jpg) no-repeat center center;
+  background: url(../images/herobanner/hero_banner.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
   min-height: 750px;
@@ -10158,4 +10158,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 
 
+
+.select-form{
+  min-height:48px;
+  border-radius:5px;
+}
 

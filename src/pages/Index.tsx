@@ -1,10 +1,11 @@
 import React from 'react'
 import AppLayout from '../layouts/AppLayout'
+import HeroSection from '../components/HeroSection'
 
 const Index:React.FC = () => {
   return (
     <AppLayout>
-      <div>index</div>
+      <HeroSection/>
     </AppLayout>
   )
 }
