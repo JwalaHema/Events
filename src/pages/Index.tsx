@@ -5,6 +5,7 @@ import PopularCategories from '../components/PopularCategories'
 import PopularLocations from '../components/PopularLocations'
 import VendorCategories from '../components/VendorCategories'
 import CalloutSection from '../components/CalloutSection'
+import RealWeddings from '../components/RealWeddings'
 
 const Index:React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Index:React.FC = () => {
       <PopularLocations/>
       <VendorCategories/>
       <CalloutSection/>
+      <RealWeddings/>
     </AppLayout>
   )
 }
