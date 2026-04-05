@@ -3,6 +3,7 @@ import AppLayout from '../layouts/AppLayout'
 import HeroSection from '../components/HeroSection'
 import PopularCategories from '../components/PopularCategories'
 import PopularLocations from '../components/PopularLocations'
+import VendorCategories from '../components/VendorCategories'
 
 const Index:React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Index:React.FC = () => {
       <HeroSection/>
       <PopularCategories/>
       <PopularLocations/>
+      <VendorCategories/>
     </AppLayout>
   )
 }
