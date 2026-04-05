@@ -874,7 +874,7 @@ Background Color / Color
 }
 
 .call-out-bg {
-  background: url(../images/callout_bg.jpg) no-repeat center center;
+  background: url(../images/call_out/callout_bg.jpg) no-repeat center center;
   background-size: cover;
   padding: 7rem 0;
   position: relative;
@@ -10185,4 +10185,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .img-width{
   width:100%;
+}
+
+.btn-margin{
+  margin-right:20px;
+}
+
+.btns-between{
+  text-align: end;
 }
