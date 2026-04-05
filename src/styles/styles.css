@@ -10182,3 +10182,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   background: #ccc;             
   border: 2px solid #ccc;     
 }
+
+.img-width{
+  width:100%;
+}

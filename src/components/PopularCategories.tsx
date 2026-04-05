@@ -39,7 +39,7 @@ const PopularCategories: React.FC = () => {
                 <div className="item">
                   <div className="popular-categories">
                     
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="" className="img-width"/>
 
                     <div className="content-wrap">
                       <div className="content">
