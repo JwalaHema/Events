@@ -13,10 +13,7 @@ const RealWeddings: React.FC = () => {
 
         <div className="row">
           {realWeddingsData.map((item, index) => (
-            <div
-              className={`col-lg-4 col-md-6 ${index === 2 ? "mx-auto" : ""}`}
-              key={index}
-            >
+            <div className={`col-lg-4 col-md-6 ${index === 2 ? "mx-auto" : ""}`} key={index}>
               <div className="real-wedding-wrap top-heading">
 
                 <div className="real-wedding">

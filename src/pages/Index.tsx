@@ -6,6 +6,7 @@ import PopularLocations from '../components/PopularLocations'
 import VendorCategories from '../components/VendorCategories'
 import CalloutSection from '../components/CalloutSection'
 import RealWeddings from '../components/RealWeddings'
+import Partners from '../components/Partners'
 
 const Index:React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const Index:React.FC = () => {
       <VendorCategories/>
       <CalloutSection/>
       <RealWeddings/>
+      <Partners/>
     </AppLayout>
   )
 }
