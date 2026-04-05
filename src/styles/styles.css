@@ -10164,3 +10164,21 @@ only screen and (min-width: 576px) and (max-width: 767px),
   border-radius:5px;
 }
 
+#slider-categories .swiper {
+  padding-bottom: 40px; 
+}
+
+#slider-categories .swiper-pagination-bullet {
+  background: transparent;      
+  border: 2px solid #888;       
+  opacity: 1;
+   width: 10px;
+  height: 10px;
+  margin: 0 5px !important;
+  border-radius: 50%;
+}
+
+#slider-categories .swiper-pagination-bullet-active {
+  background: #ccc;             
+  border: 2px solid #ccc;     
+}
