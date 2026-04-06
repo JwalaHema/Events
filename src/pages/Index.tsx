@@ -9,17 +9,17 @@ import RealWeddings from '../components/RealWeddings'
 import Partners from '../components/Partners'
 import Blogs from '../components/Blogs'
 
-const Index:React.FC = () => {
+const Index: React.FC = () => {
   return (
     <AppLayout>
-      <HeroSection/>
-      <PopularCategories/>
-      <PopularLocations/>
-      <VendorCategories/>
-      <CalloutSection/>
-      <RealWeddings/>
-      <Partners/>
-      <Blogs/>
+      <HeroSection />
+      <PopularCategories />
+      <PopularLocations />
+      <VendorCategories />
+      <CalloutSection />
+      <RealWeddings />
+      <Partners />
+      <Blogs />
     </AppLayout>
   )
 }

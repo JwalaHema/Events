@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import "font-awesome/css/font-awesome.min.css";
 import "./styles/styles.css";
 import App from "./App";
 
