@@ -17,8 +17,34 @@ const RealWeddingsList = () => {
           <div className="col-md-12">
             <div className="theme-pagination">
               <ul className="pagination justify-content-center">
-                <li className="page-item active"><a className="page-link">1</a></li>
-                <li className="page-item"><a className="page-link">2</a></li>
+
+                {/* Previous Arrow */}
+                <li className="page-item disabled">
+                  <button className="page-link">
+                    <i className="fa fa-angle-left"></i>
+                  </button>
+                </li>
+
+                {/* Page Numbers */}
+                <li className="page-item active">
+                  <a className="page-link" href="#">1</a>
+                </li>
+
+                <li className="page-item">
+                  <a className="page-link" href="#">2</a>
+                </li>
+
+                <li className="page-item">
+                  <a className="page-link" href="#">3</a>
+                </li>
+
+                {/* Next Arrow */}
+                <li className="page-item disabled">
+                  <button className="page-link">
+                    <i className="fa fa-angle-right"></i>
+                  </button>
+                </li>
+
               </ul>
             </div>
           </div>
