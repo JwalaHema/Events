@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import LoginModal from "./LoginModal";
+import { Link } from "react-router-dom";
 
 
 const Header: React.FC = () => {
@@ -178,35 +179,35 @@ const Header: React.FC = () => {
                             <div className="mega-menu real-wedding-mega">
                                 <div className="mega-col">
                                     <h4>By City</h4>
-                                    <a href="real_wedding.html">Hyderabad</a>
-                                    <a href="real_wedding.html">Vijayawada</a>
-                                    <a href="real_wedding.html">Tirupati</a>
-                                    <a href="real_wedding.html">Rajahmundry</a>
-                                    <a href="real_wedding.html">Vizag</a>
-                                    <a href="real_wedding.html">Warangal</a>
+                                    <Link to="/real-weddings">Hyderabad</Link>
+                                    <Link to="/real-weddings">Vijayawada</Link>
+                                    <Link to="/real-weddings">Tirupati</Link>
+                                    <Link to="/real-weddings">Rajahmundry</Link>
+                                    <Link to="/real-weddings">Vizag</Link>
+                                    <Link to="/real-weddings">Warangal</Link>
                                 </div>
 
 
                                 <div className="mega-col">
                                     <h4>By Culture</h4>
-                                    <a href="real_wedding.html">Maharashtrian</a>
-                                    <a href="real_wedding.html">Punjabi / Sikh</a>
-                                    <a href="real_wedding.html">Bengali</a>
-                                    <a href="real_wedding.html">Gujarati</a>
-                                    <a href="real_wedding.html">Marwari</a>
-                                    <a href="real_wedding.html">Telugu</a>
-                                    <a href="real_wedding.html">Others</a>
+                                    <Link to="/real-weddings">Maharashtrian</Link>
+                                    <Link to="/real-weddings">Punjabi / Sikh</Link>
+                                    <Link to="/real-weddings">Bengali</Link>
+                                    <Link to="/real-weddings">Gujarati</Link>
+                                    <Link to="/real-weddings">Marwari</Link>
+                                    <Link to="/real-weddings">Telugu</Link>
+                                    <Link to="/real-weddings">Others</Link>
                                 </div>
 
                                 <div className="mega-col">
                                     <h4>By Theme</h4>
-                                    <a href="real_wedding.html">Destination</a>
-                                    <a href="real_wedding.html">Grand & Luxurious</a>
-                                    <a href="real_wedding.html">Pocket Friendly Stunners</a>
-                                    <a href="real_wedding.html">Intimate & Minimalist</a>
-                                    <a href="real_wedding.html">Modern & Stylish</a>
-                                    <a href="real_wedding.html">International</a>
-                                    <a href="real_wedding.html">Others</a>
+                                    <Link to="/real-weddings">Destination</Link>
+                                    <Link to="/real-weddings">Grand & Luxurious</Link>
+                                    <Link to="/real-weddings">Pocket Friendly Stunners</Link>
+                                    <Link to="/real-weddings">Intimate & Minimalist</Link>
+                                    <Link to="/real-weddings">Modern & Stylish</Link>
+                                    <Link to="/real-weddings">International</Link>
+                                    <Link to="/real-weddings">Others</Link>
                                 </div>
                             </div>
                         </li>

@@ -98,6 +98,6 @@ export const categoryIcons: CategoryIcon[] = [
 ];
 
 export const heroData: HeroData = {
-  title: "Find Most Trusted Vendors for All Your Celebrations",
-  subtitle: "Explore verified venues, photographers, makeup artists, and more — with genuine reviews, transparent pricing, and real availability.",
+    title: "Find Most Trusted Vendors for All Your Celebrations",
+    subtitle: "Explore verified venues, photographers, makeup artists, and more — with genuine reviews, transparent pricing, and real availability.",
 };

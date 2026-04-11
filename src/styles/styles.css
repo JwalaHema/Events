@@ -4705,7 +4705,7 @@ button.swiper-pagination-bullet {
 }
 
 .rr-project-active {
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   margin: 0 -130px;
 }
 
@@ -4755,7 +4755,7 @@ button.swiper-pagination-bullet {
   background: #FFFFFF;
   box-shadow: 0px 20px 40px rgba(5, 17, 69, 0.1);
   padding: 21px 25px;
-  margin: 0 30px;
+  margin: 60px 30px;
   margin-top: -64px;
   position: relative;
 }
@@ -10199,8 +10199,32 @@ only screen and (min-width: 576px) and (max-width: 767px),
   width: 320px !important;
 }
 
-/* 👇 IMPORTANT for half cards */
 .rr-project-active {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.footerinfo{
+  list-style-type:none;
+}
+
+.footinfo{
+  padding:5px 0px;
+}
+
+.footinfo:hover{
+  padding:5px 5px;
+}
+
+.footinfo a:hover{
+  color:#ff0090 !important;
+}
+
+.footlow{
+  color:#ff0090;
+}
+
+.footlow:hover{
+  color:#ff0090;
+  text-decoration: underline;
 }

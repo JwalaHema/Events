@@ -27,8 +27,7 @@ const Footer: React.FC = () => {
 
                                         <div className="rr-footer-2-widget-content mb-25">
                                             <p>
-                                                Your trusted partner for matrimony services and event planning,
-                                                offering seamless coordination and memorable experiences.
+                                                Your trusted partner for matrimony services and event planning, offering seamless coordination, personalized support, and memorable experiences for every celebration.
                                             </p>
                                         </div>
 
@@ -49,12 +48,12 @@ const Footer: React.FC = () => {
                                     <div className="rr-footer-2-widget footer-cols-2">
                                         <h4 className="rr-footer-2-title">Information</h4>
 
-                                        <ul className="p-0">
-                                            <li><a href="/venues">Venues</a></li>
-                                            <li><a href="/vendors">Vendors</a></li>
-                                            <li><a href="/photos">Photos</a></li>
-                                            <li><a href="/real-weddings">Real Weddings</a></li>
-                                            <li><a href="/blogs">Blog</a></li>
+                                        <ul className="p-0 footerinfo">
+                                            <li className="footinfo"><a href="/venues">Venues</a></li>
+                                            <li className="footinfo"><a href="/vendors">Vendors</a></li>
+                                            <li className="footinfo"><a href="/photos">Photos</a></li>
+                                            <li className="footinfo"><a href="/real-weddings">Real Weddings</a></li>
+                                            <li className="footinfo"><a href="/blogs">Blog</a></li>
                                         </ul>
 
                                     </div>
@@ -67,22 +66,27 @@ const Footer: React.FC = () => {
                                         <h4 className="rr-footer-2-title">Contact</h4>
 
                                         <div className="rr-footer-2-widget-content mb-25">
-                                            <p>Feel free to contact us for any enquiries</p>
+                                            <p>Would you have any enquiries.Please feel free to contuct us</p>
 
                                             <div className="rr-footer-2-widget-content-item">
-                                                <a href="mailto:allhappyevents@gmail.com">
+                                                <i className="fa-regular fa-envelope"></i>
+                                                <a href="mailto:allhappyevents@gmail.com" className="p-2">
                                                     allhappyevents@gmail.com
                                                 </a>
                                             </div>
 
                                             <div className="rr-footer-2-widget-content-item">
-                                                <a href="tel:+919876543210">
+                                                <i className="fa-solid fa-phone-volume"></i>
+                                                <a href="tel:+919876543210" className="p-2">
                                                     +91 987 654 3210
                                                 </a>
                                             </div>
 
                                             <div className="rr-footer-2-widget-content-item">
-                                                <span>Hyderabad - India</span>
+                                                <i className="fa-solid fa-map"></i>
+                                                <a href="#" className="p-2">
+                                                    <span>Hyderabad - India</span>
+                                                </a>
                                             </div>
                                         </div>
 
@@ -101,7 +105,7 @@ const Footer: React.FC = () => {
                         <div className="row text-center">
                             <div className="col-12">
                                 <p>
-                                    © 2025 <a href="#">All Happy Events</a> All Rights Reserved.
+                                    © 2025 <a href="#" className="footlow">All Happy Events</a> All Rights Reserved.
                                 </p>
                             </div>
                         </div>
