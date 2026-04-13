@@ -39,37 +39,37 @@ const Header: React.FC = () => {
 
                                     <div className="mega-col">
                                         <h4>By Type</h4>
-                                        <a href="Venues_list.html">Banquet Halls</a>
-                                        <a href="Venues_list.html">Marriage Garden / Lawns</a>
-                                        <a href="Venues_list.html">Event Resorts</a>
-                                        <a href="Venues_list.html">Small Function / Party Halls</a>
-                                        <a href="Venues_list.html">Destination Event Venues</a>
-                                        <a href="Venues_list.html">Kalyana Mandapams</a>
-                                        <a href="Venues_list.html">4 Star & Above Hotels</a>
-                                        <a href="Venues_list.html">Event Farmhouses</a>
-                                        <a href="Venues_list.html">View all Venues</a>
+                                        <Link to="/venues-list">Banquet Halls</Link>
+                                        <Link to="/venues-list">Marriage Garden / Lawns</Link>
+                                        <Link to="/venues-list">Event Resorts</Link>
+                                        <Link to="/venues-list">Small Function / Party Halls</Link>
+                                        <Link to="/venues-list">Destination Event Venues</Link>
+                                        <Link to="/venues-list">Kalyana Mandapams</Link>
+                                        <Link to="/venues-list">4 Star & Above Hotels</Link>
+                                        <Link to="/venues-list">Event Farmhouses</Link>
+                                        <Link to="/venues-list">View all Venues</Link>
                                     </div>
 
                                     <div className="mega-col">
                                         <h4>By City</h4>
-                                        <a href="Venues_list.html">Hyderabad</a>
-                                        <a href="Venues_list.html">Vijayawada</a>
-                                        <a href="Venues_list.html">Tirupati</a>
-                                        <a href="Venues_list.html">Rajahmundry</a>
-                                        <a href="Venues_list.html">Vizag</a>
-                                        <a href="Venues_list.html">Warangal</a>
+                                        <Link to="/venues-list">Hyderabad</Link>
+                                        <Link to="/venues-list">Vijayawada</Link>
+                                        <Link to="/venues-list">Tirupati</Link>
+                                        <Link to="/venues-list">Rajahmundry</Link>
+                                        <Link to="/venues-list">Vizag</Link>
+                                        <Link to="/venues-list">Warangal</Link>
                                     </div>
 
                                     <div className="mega-col">
                                         <h4>Popular Picks</h4>
-                                        <a href="Venues_list.html">Luxury 5-Star Venues</a>
-                                        <a href="Venues_list.html">Beach Event Venues</a>
-                                        <a href="Venues_list.html">Fort / Palace Venues</a>
-                                        <a href="Venues_list.html">Poolside Venues</a>
-                                        <a href="Venues_list.html">Budget-Friendly Venues</a>
-                                        <a href="Venues_list.html">Intimate Venues</a>
-                                        <a href="Venues_list.html">Hill-station Venues</a>
-                                        <a href="Venues_list.html">Outdoor Venues</a>
+                                        <Link to="/venues-list">Luxury 5-Star Venues</Link>
+                                        <Link to="/venues-list">Beach Event Venues</Link>
+                                        <Link to="/venues-list">Fort / Palace Venues</Link>
+                                        <Link to="/venues-list">Poolside Venues</Link>
+                                        <Link to="/venues-list">Budget-Friendly Venues</Link>
+                                        <Link to="/venues-list">Intimate Venues</Link>
+                                        <Link to="/venues-list">Hill-station Venues</Link>
+                                        <Link to="/venues-list">Outdoor Venues</Link>
                                     </div>
 
                                 </div>

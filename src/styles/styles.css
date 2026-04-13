@@ -6060,10 +6060,10 @@ button.swiper-pagination-bullet {
 
 /*----  9.10  Search Result Start ---*/
 
-.banner-image {
+/* .banner-image {
   background-image: url(../images/slider/venue_list_breadcrum.avif) !important;
   background-position: center !important;
-}
+} */
 
 .search-result-header {
   background-image: url(../images/slider/venue_photography_breadcrumb.png);
@@ -10227,4 +10227,13 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .footlow:hover{
   color:#ff0090;
   text-decoration: underline;
+}
+
+.btn-default-search{
+  left:-3px;
+  padding:13px;
+}
+
+.input-group-prepend-search{
+  margin:10px;
 }
